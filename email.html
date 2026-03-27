@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smarth_RAPPORT</title>
+    <div class="banner">
+
+        <img src="image.png" alt="Image de fond">
+        <div class="text">Smarth_RAPPORT</div>
+        <form  class="login-form">
+            <label for="nom">NOM:</label>
+            <input  type="text" id="Nom" placeholder="Entrez vottre Nom.. "required><br><br>
+            <label for="post-Nom">Post-Nom:</label>
+            <input  type="text" id="PostNom" placeholder="Entrez vottre Post-Nom... "required>
+            <br><br>
+            <label for="email">AdresseGmail:</label>
+            <input  type="email" id="email" name="email" placeholder="Entrez vottre email..... "required>
+            <br><br>
+            <button type="submit">veiller cliquer ici</button>
+            <p id="veiller remplir les formalites" style="color:red;"> 
+        </form> 
+    </div>   
+ <hr>                       
+</head>
+<style>
+    
+    .banner {
+    position: relative;   
+    width: 100%;          
+    height: 300px;        
+    }
+    .banner img {
+    width: 100%;          
+    height: 100%;         
+    object-fit: cover;    
+}
+    .login-form {
+    position: absolute;   
+    top: 50%;             
+    left: 150px;   
+    padding: 5px;         
+    transform: translate(-45%, -45%); 
+    color: black;        
+    font-size: 15px;
+    display: flex;    
+    flex-direction: column;
+    width: 300px;  
+    font-weight: bold;    
+    text-shadow: 2px 2px 5px white;
+    text-align: left;
+    margin: 10px;
+
+ }
+
+    .login-form button{
+        color: blue;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 5px;
+        align-self:center ;
+        text-shadow: 1px 1px 3px black;
+    }
+    body{
+        background-color: rgba(165, 165, 165, 0.671);
+        background-size: cover;
+        
+    }
+    .banner .text {
+    position: absolute;   
+    top: 50%;             
+    left: 50%;            
+    transform: translate(-50%, -50%); 
+    color: rgba(233, 230, 230, 0.842);        
+    font-size: 40px;      
+    font-weight: bold;    
+    text-shadow: 2px 2px 5px black;
+    text-align: center; 
+         }    
+
+</style>
+<body>
+    
+</body>
+</html>
